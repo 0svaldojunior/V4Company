@@ -1,0 +1,23 @@
+{
+  "name": "V4Company",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/0svaldojunior/V4Company.git",
+  "author": "0svaldojunior <osvaldo.rodrigues@acad.pucrs.br>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "knex-make": "knex migrate:make $1 --env database",
+    "knex-latest": "knex migrate:latest --env database",
+    "knex-rollback": "knex migrate:rollback --env database"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}

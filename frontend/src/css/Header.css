@@ -1,0 +1,11 @@
+header .title {
+    text-align: start;
+    font-size: 20px;
+}
+
+header .subtitle {
+    text-align: start;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}

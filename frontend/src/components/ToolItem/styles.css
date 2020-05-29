@@ -1,0 +1,108 @@
+li.tool-item {
+    background: #FFF;
+    box-shadow: 0 0 14px 0 rgba(0, 0, 0, 0.02);
+    border-radius: 2px;
+    padding: 20px;
+}
+
+li.tool-item header .information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.information img {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+}
+
+.information .tool-info {
+    margin-left: 10px;
+}
+
+.tool-info strong {
+    display: block;
+    font-size: 16px;
+    color: #333;
+}
+
+.tool-info span {
+    font-size: 13px;
+    color: #999;
+    margin-top: 2px;
+}
+
+
+header p {
+    height: 100px;
+    display: block;
+    color: #666;
+    font-size: 13px;
+    margin-top: 20px;
+    line-height: 20px;
+    max-width: 120ch;
+}
+
+header .delete-link {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 10px 10px;
+}
+
+.delete-button button {
+    display: 1;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color:rgb(223, 46, 48);
+    font-size: 12px;
+    font-weight: bold;
+    color:  #FFF;
+    cursor: pointer;
+    transition: background 0.25s;
+}
+
+.delete-button button:hover {
+    background-color: rgb(200, 20, 22);
+}
+
+.link-button button {
+    display: 1;
+    width: 100%;
+    height: 30px;
+    border: 0;
+    border-radius: 2px;
+    margin-top: 10px;
+    background-color: #FFF;
+    font-size: 12px;
+    font-weight: bold;
+    color:  rgb(0, 178, 51);
+    cursor: pointer;
+    transition: background 0.25s;
+}
+
+.link-button button:hover {
+    background-color: rgb(0, 178, 51);
+    color: #FFF;
+}
+
+.link-button button:hover a {
+    color: #FFF;
+}
+
+a {
+    font-size: 12px;
+    font-weight: bold;
+    color:  rgb(0, 178, 51);
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.25s;
+}
+
+a:hover {
+    color: #FFF;
+}

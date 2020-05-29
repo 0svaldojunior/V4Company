@@ -1,3 +1,4 @@
+// Conexão com o banco de dados(postgreSQL) utilizando o knex
 const knex = require('knex');
 const configuration = require('../../knexfile');
 

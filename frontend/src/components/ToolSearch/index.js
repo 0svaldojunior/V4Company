@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './styles.css';
 
+// Componente que da a forma a barra e botão de pesquisa para aplicar o filtro nas ferramentas
 function ToolSearch({ handleSearchTool }) {
   const [search, setsearch] = useState('');
 

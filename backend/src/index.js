@@ -1,12 +1,13 @@
+// Arquivo principal onde inicia o processo da aplicação
 const express = require('express');
 const cors = require('cors');
 const routes = require('./routes');
 
 const app = express();
 
-app.use(cors());
-app.use(express.json());
-app.use(routes);
+app.use(cors()); // utilizado para importar a api á uma URL separada da aplicação
+app.use(express.json()); // informa que a aplicação irá "entender" o tipo json
+app.use(routes); // rotas criadas para manipular a database.
 
 
 app.listen(3000);

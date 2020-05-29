@@ -1,3 +1,9 @@
+# Frontend
+    Todos requisitos são instalados na etapa do backend, acesse backend/README.md para mais informações.
+
+## Raciocínio
+    Criação de componentes para auxiliar no desenvolvimento, seguido da utilização de serviço para auxiliar na conexão com o banco de dados, arquivos de estilo(css) estao juntos com seus componentes ou páginas, também foi utilizado um arquivo de estilo globas para setar opções base da aplicação.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -7,7 +13,7 @@ In the project directory, you can run:
 ### `yarn start`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Open [http://localhost:3001](http://localhost:3001) to view it in the browser.
 
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.

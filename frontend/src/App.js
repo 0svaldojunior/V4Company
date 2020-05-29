@@ -1,5 +1,8 @@
 import React, { useState, useEffect } from 'react';
 
+// Componente principal da aplicação, dando origem a única tela existênte na aplicação 
+// e todo seu funcionamento
+
 import api from './services/api';
 
 import './global.css';

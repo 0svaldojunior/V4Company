@@ -2,6 +2,7 @@ import React from 'react';
 
 import './styles.css';
 
+// Componente responsável pela "aparencia/formato" de cada ferramenta presente no banco de dados
 function ToolItem({ tool, handleDeleteTool }) {
   return (
     <li className="tool-item">

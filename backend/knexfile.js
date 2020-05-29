@@ -1,3 +1,4 @@
+// Configurações do banco de dados
 module.exports = {
     database: {
         client: 'pg',

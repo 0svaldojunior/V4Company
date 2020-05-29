@@ -1,3 +1,5 @@
+// Criação das rotas utilizando o Router presente no express, juntamente
+// com os controladores implementados anteriormente
 const { Router } = require('express');
 
 const ToolController = require('./controllers/ToolController');

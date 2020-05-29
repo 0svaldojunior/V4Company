@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 
 import './styles.css';
 
+// Componente responsável pela criação do formulário de inserção das ferramentas no banco de dados
 function ToolForm({ onSubmit }) {
   const [name, setname] = useState('');
   const [link, setlink] = useState('');
